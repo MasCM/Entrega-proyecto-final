@@ -1,4 +1,4 @@
-# Tienda Online de Productos de belleza
+# Tienda Online de Productos de belleza Bueauty Store
 
 Este proyecto es una página web ficticia desarrollada como parte del curso de Front-End.  
 La tienda ofrece productos de belleza (maquillajes, perfumes) y está organizada en secciones semánticas: Inicio, Productos, Reseñas y Contacto.  
