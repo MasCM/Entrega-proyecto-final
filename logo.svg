@@ -1,0 +1,19 @@
+<svg viewBox="0 0 1400 220" xmlns="http://www.w3.org/2000/svg">
+  <!-- Adorno izquierdo -->
+  <line x1="60" y1="110" x2="330" y2="110" stroke="#fff8f5" stroke-width="2"/>
+  <circle cx="345" cy="110" r="4" fill="#fff8f5"/>
+
+  <!-- Adorno derecho -->
+  <line x1="1055" y1="110" x2="1340" y2="110" stroke="#fff8f5" stroke-width="2"/>
+  <circle cx="1040" cy="110" r="4" fill="#fff8f5"/>
+
+  <!-- Texto principal -->
+  <text x="700" y="130" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">
+    <tspan font-style="italic" font-size="96" fill="#fff8f5">Beauty</tspan><tspan font-weight="700" font-size="96" fill="#2d2d2d">Store</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="700" y="175" text-anchor="middle" font-family="'Roboto', Arial, sans-serif" font-size="20" letter-spacing="6" fill="#fff8f5">
+    MAKEUP &amp; BEAUTY
+  </text>
+</svg>
