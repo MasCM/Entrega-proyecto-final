@@ -3,68 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BeautyStore - Cosméticos y Perfumes</title>
+  <title>BeautyStore</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <header>
-    <div class="logo">
-      <img src="logo.svg" alt="Logo">
-      <nav>
-        <ul class="nav-list">
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#productos-api">Productos</a></li>
-          <li><a href="#reseñas">Reseñas</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-          <li><a href="#carrito">Carrito 🛒 <span id="contador-carrito">0</span></a></li>
-        </ul>
-      </nav>
-    </div>
+    <img src="logo.svg" alt="Logo" class="logo">
+    <h1>BeautyStore</h1>
+    <h2>MAKEUP & BEAUTY</h2>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Reseñas</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Carrito 🛒 0</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section id="inicio">
-      <video src="video.mp4" autoplay muted loop></video>
+    <section class="banner">
+      <video autoplay muted loop controls>
+        <source src="video.mp4" type="video/mp4">
         <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español">
+        Tu navegador no soporta video HTML5.
       </video>
     </section>
 
-    <section id="productos-api" class="productos"></section>
-
-    <section id="reseñas" class="reseñas">
-      <section class="card"><h3>María</h3><p>“El perfume que compré tiene una fragancia increíble. ¡Muy recomendable!”</p></section>
-      <section class="card"><h3>Andrea</h3><p>“El set de maquillaje llegó en perfectas condiciones y con excelente calidad.”</p></section>
-      <section class="card"><h3>Lucía</h3><p>“Me encantó la variedad de cosméticos. Volveré a comprar sin dudas.”</p></section>
-    </section>
-
-    <section id="contacto">
-      <form action="https://formspree.io/f/xrejkbpk" method="POST" novalidate>
-        <input type="text" name="nombre" placeholder="Tu nombre" required>
-        <small class="error" id="error-nombre"></small>
-        <input type="email" name="email" placeholder="Tu correo" required>
-        <small class="error" id="error-email"></small>
-        <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
-        <small class="error" id="error-mensaje"></small>
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
-
-    <section id="carrito">
-      <h2>Tu Carrito</h2>
-      <div id="lista-carrito"></div>
-      <p id="total-carrito">Total: $0</p>
+    <section class="productos">
+      <h2>Nuestros Productos</h2>
+      <div class="grid">
+        <!-- Ejemplo de producto -->
+        <div class="producto">
+          <img src="img1.jpg" alt="Perfume Chanel">
+          <h3>Chanel Coco Noir</h3>
+          <p>Perfume elegante y sofisticado.</p>
+        </div>
+        <!-- Agregá más productos aquí -->
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 BeautyStore</p>
-    <div class="social-icons">
-      <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
-      <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-      <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-    </div>
+    <p>&copy; 2026 BeautyStore. Todos los derechos reservados.</p>
   </footer>
 
   <script src="script.js"></script>
