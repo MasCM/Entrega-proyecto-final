@@ -10,4 +10,4 @@ La tienda ofrece productos de belleza (maquillajes, perfumes) y está organizada
 - Formulario de contacto conectado a Formspree
 - Footer con iconos de redes sociales
 
-El objetivo es practicar la construcción de un sitio completo y prepararlo para futuras mejoras.
+El objetivo es practicar la construcción de un sitio completo y prepararlo para futuras mejoras
